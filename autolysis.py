@@ -181,7 +181,7 @@ def question_llm(prompt, context):
     print("Generating story using LLM...")  # Debugging line
     try:
         # Get the AIPROXY_TOKEN from the environment variable
-        token = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDA2OTVAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.fu4ZEGsC9J_shc1Dcbo852AuE2JOBIAtfOuT8KAJXWw"  # API Token
+        token = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjEwMDE5MDlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.ar9LawJI8R1szDmKsROlhkCkQYCfg23tsSxCrJM3hsw"  # API Token
 
         # Set the custom API base URL for the proxy
         api_url = "https://aiproxy.sanand.workers.dev/openai/"
